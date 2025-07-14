@@ -18,6 +18,26 @@
   height: 20px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0.4;
+}
+
+.card__like-btn:hover {
+  opacity: 1;
+}
+
+.card__title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 120%;
+  font-size: 20px;
+}
+
+.card__title h2 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 627px) {
