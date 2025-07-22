@@ -4,6 +4,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .card__content {
@@ -32,9 +33,7 @@
   font-weight: 500;
   line-height: 120%;
   font-size: 20px;
-}
-
-.card__title h2 {
+  margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -43,5 +42,9 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    max-width: 235px;
   }
 }
