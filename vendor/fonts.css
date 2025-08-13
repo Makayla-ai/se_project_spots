@@ -1,11 +1,13 @@
-.Poppins-Regular.ttf {
-  font-family: "Poppins-Reg", sans-serif;
-  font-weight: 400;
+@font-face {
+  font-family: "Poppins";
   font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
 }
 
-.Poppins-Medium.ttf {
-  font-family: "Poppins-Med", sans-serif;
+@font-face {
+  font-family: "Poppins";
+  font-size: medium;
   font-weight: 500;
-  font-style: normal;
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
 }
